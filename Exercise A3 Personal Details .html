@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login Form</title>
+    <style>
+        label {
+        
+            display: inline-block;
+            margin: 5px;
+        }
+        #nsour {
+            margin: 10px ;
+            font-size: larger;
+        }
+        #form{
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+
+    <fieldset style="width: 500px ;">                 <!-- Fieldset & Legend  to create a Personal Details Box-->
+        <legend>Personal Details:</legend>
+        <div id="form">
+
+            <form>
+                <label>Salutation:</label> <br>
+                <select style="color: red ;">
+                    <option> --None--</option>
+                    <option> --yes-- </option>
+                    <option> --No-- </option>
+                </select>
+
+                <br>
+                
+                <label>First Name:</label>
+                <input type="text" name="First Name"> 
+                
+                <br>
+
+                <label> Last Name:</label>
+                <input type="text" name=" Last Name">
+                
+                <br>
+
+                <label>Sex:</label>
+                <input type="radio" name="Gender" value="Gender"> Male
+                <input type="radio" name="Gender" value="Gender"> Female
+                <br>
+
+                <label>Email:</label>
+                <input type="email" name="email" size="50"> <br>
+
+               
+                <label>Date of Birth:</label>
+                <input type="date" size="25px">
+                <br>
+                <label>About:</label> <br>
+                <textarea cols="50" rows="10" placeholder="tell as about yourself"></textarea> 
+                <br>
+                <input type="submit" id="nsour">
+
+            </form>
+        </div>
+
+    </fieldset>
+</body>
+
+</html>
